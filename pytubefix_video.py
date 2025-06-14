@@ -1,7 +1,6 @@
 from pytubefix import YouTube
 from pytubefix.cli import on_progress
-import os
-import subprocess
+
 
 # 🔗 Insert your YouTube video URL here
 url = "https://www.youtube.com/link"
