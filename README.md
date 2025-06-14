@@ -53,7 +53,7 @@
 </tr>
 </table>
 
-### 🏆 **Why Choose This Toolkit?**
+### 📂 **What's Inside this Toolkit?**
 - **8 Specialized Scripts** - Each optimized for specific download scenarios
 - **Dual-Library Support** - PyTubeFix and yt-dlp for maximum compatibility
 - **HD Quality Processing** - Automatic codec optimization with FFmpeg
@@ -114,7 +114,7 @@ python pytubefix_video.py
 **Usage**:
 ```python
 # Edit the script
-url = "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+url = "https://www.youtube.com/watch?v=VIDEO_ID"
 python pytubefix_audio_only.py
 ```
 
@@ -158,7 +158,7 @@ python ytdlp_audio_only.py
 
 **Usage**:
 ```python
-url = "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+url = "https://www.youtube.com/watch?v=VIDEO_ID"
 python pytubefix_video.py
 ```
 
@@ -250,7 +250,7 @@ python pytubefix_video.py
 #### **1. Environment Setup**
 ```bash
 # Create virtual environment (recommended)
-python -m venv youtube_downloader
+python -m .venv youtube_downloader
 source youtube_downloader/bin/activate  # Linux/Mac
 youtube_downloader\Scripts\activate     # Windows
 ```
@@ -307,7 +307,7 @@ print('🎉 Installation Complete!')
 ```bash
 # 1. Copy YouTube URL
 # 2. Edit pytubefix_audio_only.py:
-url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+url = "https://www.youtube.com/watch?v=shortcode"
 
 # 3. Run script
 python pytubefix_audio_only.py
@@ -434,7 +434,8 @@ pip install --upgrade pytubefix yt-dlp
 
 ## 📊 Dependencies
 
-### **Core Requirements** (`requirements.txt`)
+### **Core Requirements** 
+(`requirements.txt`)
 ```
 pytubefix==8.13.1
 yt-dlp==2025.6.9
@@ -455,22 +456,11 @@ yt-dlp==2025.6.9
 - ✅ Use for personal purposes only
 - ✅ Support content creators through official channels
 
-### **Educational Use**
-This project is for **educational purposes only**. Please respect YouTube's Terms of Service and only download content you have permission to access.
-
 ---
 
 ## 📜 License
 
 This project is for **educational purposes only**. Please respect YouTube's Terms of Service and only download content you have permission to access.
-
----
-
-## ⭐ Acknowledgments
-
-- **PyTubeFix team** for excellent YouTube downloading capabilities
-- **yt-dlp contributors** for robust video processing functionality
-- **FFmpeg project** for powerful multimedia processing tools
 
 ---
 
@@ -480,6 +470,6 @@ This project is for **educational purposes only**. Please respect YouTube's Term
 
 Developed by **GhostKX**
 
-🌐 **GitHub**: [@GhostKX](https://github.com/GhostKX)
+[![GitHub](https://img.shields.io/badge/GitHub-@GhostKX-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GhostKX)
 
 </div>
