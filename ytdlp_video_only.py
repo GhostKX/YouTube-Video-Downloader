@@ -11,7 +11,7 @@ fixed_path = 'video_only_fixed.mp4'
 # ⚙️ yt_dlp configuration
 ydl_opts = {
     'format': 'bestvideo[ext=mp4][vcodec^=avc1]',        # 🎞️ H.264 (AVC1) video in MP4
-    'outtmpl': 'video_only.mp4',                         # 💾 Output file name
+    'outtmpl': f'{output_path}',                         # 💾 Output file name
     'noplaylist': True,                                  # 🚫 Only download one video
     'quiet': False,                                      # 📢 Show progress output
 }
@@ -24,7 +24,7 @@ try:
     # Remux video to fix timestamps, without re-encoding
     cmd = [
         "ffmpeg",
-        "-i", output_path ,
+        "-i", output_path,
         "-c", "copy",
         "-fflags", "+genpts",
         fixed_path,
